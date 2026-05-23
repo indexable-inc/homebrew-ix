@@ -1,18 +1,19 @@
-# Indexable-inc Ix
+# homebrew-ix
+Official homebrew packages for [ix](https://ix.dev).
 
-## How do I install these formulae?
+Provides an alternative to running the install script at <https://ix.dev/install.sh>.
 
-`brew install indexable-inc/ix/<formula>`
-
-Or `brew tap indexable-inc/ix` and then `brew install <formula>`.
-
-Or, in a `brew bundle` `Brewfile`:
-
-```ruby
-tap "indexable-inc/ix"
-brew "<formula>"
+## Usage
+```bash
+# add the tap
+brew tap indexable-inc/ixbrew install indexable-inc/ix/<formula>`
+# install the package
+brew install ix
 ```
 
-## Documentation
+## Limitations
+Due to current publishing limitations, the `ix` cask is not versioned and simply downloads the latest binary.
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+Manpages are not currently generated/installed.
+Completions are installed.
+
