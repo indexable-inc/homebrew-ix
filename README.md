@@ -6,7 +6,7 @@ Provides an alternative to running the install script at <https://ix.dev/install
 ## Usage
 ```bash
 # add the tap
-brew tap indexable-inc/ix`
+brew tap indexable-inc/ix
 # install the package
 brew install ix
 ```
